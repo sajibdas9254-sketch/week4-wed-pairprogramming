@@ -6,18 +6,21 @@ import tour5 from "./assets/images/tour-1.jpeg";
 import tour6 from "./assets/images/tour-2.jpeg";
 import tour7 from "./assets/images/tour-3.jpeg";
 
-
 export const pageLinks = [
-  { id: 1, href: "#home", text: "home" },
-  { id: 2, href: "#about", text: "about" },
-  { id: 3, href: "#services", text: "services" },
-  { id: 4, href: "#tours", text: "tours" },
+  { id: 1, href: "/", text: "home" },
+  { id: 2, href: "/about", text: "about" },
+  { id: 3, href: "/services", text: "services" },
+  { id: 4, href: "/tours", text: "tours" },
 ];
 
 export const socialLinks = [
   { id: 1, href: "https://www.facebook.com", icon: "fab fa-facebook" },
   { id: 2, href: "https://www.x.com", icon: "fab fa-x-twitter" },
-  { id: 3, href: "https://www.squarespace.com/", icon: "fab fa-squarespace" },
+  {
+    id: 3,
+    href: "https://www.squarespace.com/",
+    icon: "fab fa-squarespace",
+  },
 ];
 
 export const services = [
@@ -26,35 +29,40 @@ export const services = [
     icon: "fas fa-wallet fa-fw",
     title: "saving money",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-    details: "Get the best deals on travel packages with our exclusive discounts and special offers.",
+    details:
+      "Get the best deals on travel packages with our exclusive discounts and special offers.",
   },
   {
     id: 2,
     icon: "fas fa-tree fa-fw",
     title: "endless hiking",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-    details: "Explore stunning trails and natural landscapes with experienced guides.",
+    details:
+      "Explore stunning trails and natural landscapes with experienced guides.",
   },
   {
     id: 3,
     icon: "fas fa-socks fa-fw",
     title: "amazing comfort",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-    details: "Enjoy premium accommodations and amenities throughout your journey.",
+    details:
+      "Enjoy premium accommodations and amenities throughout your journey.",
   },
   {
     id: 4,
     icon: "fas fa-plane fa-fw",
     title: "easy travel",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-    details: "Seamless flight bookings and transfers to make your journey stress-free.",
+    details:
+      "Seamless flight bookings and transfers to make your journey stress-free.",
   },
   {
     id: 5,
     icon: "fas fa-utensils fa-fw",
     title: "local cuisine",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-    details: "Taste authentic dishes and enjoy culinary experiences guided by local chefs.",
+    details:
+      "Taste authentic dishes and enjoy culinary experiences guided by local chefs.",
   },
 ];
 
@@ -64,7 +72,7 @@ export const tours = [
     image: tour1,
     date: "august 26th, 2027",
     title: "Tibet Adventure",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "china",
     duration: 6,
     cost: 2100,
@@ -76,7 +84,7 @@ export const tours = [
     image: tour2,
     date: "october 1st, 2027",
     title: "best of java",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "indonesia",
     duration: 11,
     cost: 1400,
@@ -88,7 +96,7 @@ export const tours = [
     image: tour3,
     date: "september 15th, 2027",
     title: "explore hong kong",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "hong kong",
     duration: 8,
     cost: 5000,
@@ -100,7 +108,7 @@ export const tours = [
     image: tour4,
     date: "december 5th, 2027",
     title: "kenya highlights",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "kenya",
     duration: 20,
     cost: 3300,
@@ -112,7 +120,7 @@ export const tours = [
     image: tour5,
     date: "march 12th, 2028",
     title: "peru discovery",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "peru",
     duration: 14,
     cost: 2800,
@@ -124,7 +132,7 @@ export const tours = [
     image: tour6,
     date: "july 20th, 2028",
     title: "greek islands escape",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
     location: "greece",
     duration: 10,
     cost: 2500,
@@ -136,7 +144,7 @@ export const tours = [
     image: tour7,
     date: "may 3rd, 2028",
     title: "iceland expedition",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    info: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, who corporis.`,
     location: "iceland",
     duration: 12,
     cost: 3600,
@@ -144,3 +152,4 @@ export const tours = [
     rating: 4.8,
   },
 ];
+
