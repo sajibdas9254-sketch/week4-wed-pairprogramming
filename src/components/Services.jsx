@@ -7,7 +7,9 @@ const Services = () => {
   const [servicesData, setServicesData] = useState(services)
 
   const handleRemove = (id) => {
-    setServicesData(servicesData.filter((service) => service.id !== id))
+    setServicesData(
+      servicesData.filter((service) => service.id !== id)
+    )
   }
 
   return (
